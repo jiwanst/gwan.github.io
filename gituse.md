@@ -1,6 +1,6 @@
 ---
 layout: archive
 type: gituse
-title: 깃사
+title: 깃
 permalink: /gituses/
 ---
