@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "Gitiwan's Blog"
+  spec.name          = "지완성"
   spec.version       = "1.0.0"
   spec.authors       = ["G-wan Han"]
   spec.email         = ["gwangst@icloud.com"]
 
-  spec.summary       = "지어지고 있는 블로그"
+  spec.summary       = "지어지는 블로그"
   spec.homepage      = "https://github.com/gitiwan/gitiwan.github.io"
   spec.license       = "MIT"
 
