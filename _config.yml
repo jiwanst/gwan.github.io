@@ -1,13 +1,11 @@
 title: 지완성
 tagline: 지어지는 블로그
-description: |
-  Getting better
-  every single moment
+description: "참고: 제가알기론"
 
 author:
   name:   G-WAN
   url:    https://gitiwan.github.io/
-  avatar: https://raw.githubusercontent.com/gitiwan/gitiwan.github.io/main/logo.png
+  avatar: ./logo.png
 
 plugins:
   - jekyll-paginate
