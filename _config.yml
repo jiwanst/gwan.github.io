@@ -1,11 +1,12 @@
 title: 지완성
 tagline: 지어지는 블로그
-description: Getting better \n every single moment.
+description: Getting better 
+every single moment.
 
 author:
-  name:   G-wan Han
-  url:    https://twitter.com/vfvong
-  avatar: https://avatars.githubusercontent.com/u/97170774
+  name:   G-WAN
+  url:    https://gitiwan.github.io/
+  avatar: https://github.com/gitiwan/gitiwan.github.io/logo.png
 
 plugins:
   - jekyll-paginate
