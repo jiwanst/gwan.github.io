@@ -3,7 +3,7 @@
 Gem::Specification.new do |spec|
   spec.name          = "지완성"
   spec.version       = "1.0.0"
-  spec.authors       = ["G-wan Han"]
+  spec.authors       = ["G-WAN"]
   spec.email         = ["gwangst@icloud.com"]
 
   spec.summary       = "지어지는 블로그"

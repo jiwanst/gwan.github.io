@@ -1,12 +1,13 @@
 title: 지완성
 tagline: 지어지는 블로그
-description: Getting better 
-every single moment.
+description: >-
+Getting better
+every single moment
 
 author:
   name:   G-WAN
   url:    https://gitiwan.github.io/
-  avatar: https://github.com/gitiwan/gitiwan.github.io/logo.png
+  avatar: https://raw.githubusercontent.com/gitiwan/gitiwan.github.io/main/logo.png
 
 plugins:
   - jekyll-paginate
