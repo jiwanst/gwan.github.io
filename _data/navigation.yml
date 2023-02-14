@@ -1,12 +1,6 @@
-- title: About
+- title: 소개
   url: /about/
-- title: Archive
-  url: /archive/
-- title: Categories
+- title: 카테고리
   url: /categories/
-- title: Tags
-  url: /tags/
-- title: Download
-  url: https://github.com/gitiwan/gitiwan.github.io/archive/refs/heads/main.zip
 - title: GitHub
   url: https://github.com/gitiwan
