@@ -13,5 +13,4 @@ plugins:
 paginate: 2
 
 categories_path: /categories/
-gituse_path: /gituse/
-#tags_path: /tags/
+gituse_path: /gituses/

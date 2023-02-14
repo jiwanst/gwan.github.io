@@ -35,6 +35,18 @@ layout: default
         {% endfor %}
       </nav>
     {% endif %}
+
+    {% if page.gituses.size > 0 %}
+      <nav class="post-gituses">
+        {% for gituse in page.gituses %}
+          {% if site.gituses_path %}
+            <a class="post-gituse" href="{{ site.gituses_path | relative_url }}#{{ gituse | slugify }}">{{ gituse }}</a> /
+          {% else %}
+            <span>{{ gituse }}</span> /
+          {% endif %}
+        {% endfor %}
+      </nav>
+    {% endif %}
   </div>
 
   <h1 class="post-title">{{ page.title }}</h1>

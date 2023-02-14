@@ -3,7 +3,6 @@ layout: post
 title: Example Content
 author: [Mark Otto, Song-Zi Vong]
 categories: [Essays, Examples, Test1]
-tags: [example, html, Test2]
 math: true
 last_modified_at: 2023-02-13 16:32:00 +0800
 ---
