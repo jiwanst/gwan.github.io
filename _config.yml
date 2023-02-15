@@ -10,7 +10,7 @@ author:
 plugins:
   - jekyll-paginate
 
-paginate: 2
+paginate: 5
 
 categories_path: /categories/
 gituse_path: /gituses/
