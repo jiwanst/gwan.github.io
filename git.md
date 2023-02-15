@@ -2,5 +2,5 @@
 layout: archive
 type: gits
 title: 깃
-permalink: /gits/
+permalink: /category/git.html
 ---
