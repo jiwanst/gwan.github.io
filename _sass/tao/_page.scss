@@ -28,11 +28,13 @@
   gap: var(--spacing);
 }
 
-.post-categories {
+.post-categories,
+.post-gits {
   text-align: right;
 }
 
 a.post-category,
+a.post-gits,
 a.post-tag {
   color: inherit;
 

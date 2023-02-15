@@ -35,14 +35,13 @@ layout: default
         {% endfor %}
       </nav>
     {% endif %}
-
-    {% if page.gituses.size > 0 %}
-      <nav class="post-gituses">
-        {% for gituse in page.gituses %}
-          {% if site.gituses_path %}
-            <a class="post-gituse" href="{{ site.gituses_path | relative_url }}#{{ gituse | slugify }}">{{ gituse }}</a> /
+    {% if page.gits.size > 0 %}
+      <nav class="post-gits">
+        {% for category in page.gits %}
+          {% if site.gits_path %}
+            <a class="post-git" href="{{ site.gits_path | relative_url }}#{{ git | slugify }}">{{ git }}</a> /
           {% else %}
-            <span>{{ gituse }}</span> /
+            <span>{{ git }}</span> /
           {% endif %}
         {% endfor %}
       </nav>
@@ -61,6 +60,19 @@ layout: default
   <div class="post-content">
     {{ content }}
   </div>
+
+  {% if page.tags.size > 0 %}
+    <nav class="post-meta post-meta-bottom">
+      {% for tag in page.tags %}
+        {% assign slugified_tag = tag | slugify %}
+        {% if site.tags_path %}
+          <a class="post-tag" href="{{ site.tags_path | relative_url }}#{{ slugified_tag }}">#{{ slugified_tag }}</a>
+        {% else %}
+          <span>#{{ slugified_tag }}</span>
+        {% endif %}
+      {% endfor %}
+    </nav>
+  {% endif %}
 </article>
 
 <div class="pagination">

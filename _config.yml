@@ -13,4 +13,4 @@ plugins:
 paginate: 5
 
 categories_path: /categories/
-gituses_path: /gituses/
+gits_path: /gits/
