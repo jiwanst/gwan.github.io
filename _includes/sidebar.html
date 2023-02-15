@@ -24,13 +24,15 @@
     </nav>
   {% endif %}
 
-  <form action="/search">
-    <b>'검색: '</b>
-    <div class="tipue_search_right">
-      <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required></div>
-    <div style="clear: both;"></div>
-  </form>
-
+  <p>
+    <form action="/search">
+      <b>찾아보기</b>
+      <div class="tipue_search_right">
+        <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required></div>
+      <div style="clear: both;"></div>
+    </form>
+  </p>
+  
   {% if site.data.social %}
   <div class="sidebar-section social">
     {% for social in site.data.social %}
