@@ -1,7 +1,5 @@
 {%- if page.type == 'categories' -%}
   {%- assign taxonomies = site.categories -%}
-{%- elsif page.type == 'gits' -%}
-  {%- assign taxonomies = site.gits -%}
 {%- elsif page.type == 'tags' -%}
   {%- assign taxonomies = site.tags -%}
 {%- else -%}
