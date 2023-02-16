@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Example Content
+title: 리눅스 명령어
 author: G-WAN
-category: linux
+categories: [linux]
 math: true
 ---
 
