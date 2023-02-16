@@ -14,3 +14,12 @@ paginate: 5
 
 categories_path: /categories/
 tags_path: /tags/
+
+tipue_search:
+     include:
+         pages: false
+         collections: []
+     exclude:
+         files: [search.html, index.html, tags.html]
+         categories: []
+         tags: []

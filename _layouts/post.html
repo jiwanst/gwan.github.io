@@ -26,6 +26,7 @@ layout: default
     
     {% if page.categories.size > 0 %}
       <nav class="post-categories">
+        <a class="post-category" href="/categories/">전체 카테고리 /</a> /
         {% for category in page.categories %}
           {% if site.categories_path %}
             <a class="post-category" href="/{{ category }}/">{{ category }}</a> /
