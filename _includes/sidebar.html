@@ -24,13 +24,34 @@
     </nav>
   {% endif %}
 
-  <p>
-    <form action="/search">
-      <li class="nav-item">찾아보기</li>
-      <div class="tipue_search_right">
-        <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required></div>
-      <div style="clear: both;"></div>
-    </form>
+  <p class = "sidebar-section">
+    <div class="container">
+      <div class="row">
+       <div class="col-12">
+         <div id="search-bar">
+           <i class="fa fa-search" aria-hidden="true"></i>
+           <input id="search-input" type="text" placeholder="Search..." />
+         </div>
+         <ul id="results-container"></ul>
+       </div>
+      </div>
+      </div>
+      
+      <!-- Script pointing to jekyll-search.js -->
+      <script src="/assets/js/tao/jekyll-search.js" type="text/javascript"></script>
+      
+      <script type="text/javascript">
+        SimpleJekyllSearch({
+            searchInput: document.getElementById('search-input'),
+            resultsContainer: document.getElementById('results-container'),
+            json: '/search.json',
+            searchResultTemplate: '<li><a href="{url}" title="{desc}" target="_blank">{title}</a></li>',
+            noResultsText: 'No results found',
+            limit: 10000,
+            fuzzy: false,
+            exclude: ['Welcome']
+        });
+      </script>
   </p>
 
   {% if site.data.social %}

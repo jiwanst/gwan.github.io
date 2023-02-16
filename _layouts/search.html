@@ -1,12 +1,24 @@
-<div id="tipue_search_content"></div>
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  {% include head.html %}
+  <body>
+    {% include sidebar.html %}
+    <div class="wrapper">
+      {% include header.html %}
+      <main>
+        {{ content }}
+      </main>
+      {% include footer.html %}
+    </div>
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    <script src="{{ '/assets/js/tao/sidebar.js' | relative_url }}"></script>
 
-<script>
-$(document).ready(function() {
-  $('#tipue_search_input').tipuesearch({
-    'wholeWords' : false,
-    'showTime' : false,
-    'minimumLength' : 1
-  });
-});
-</script>
+    {% if page.math %}
+      {% include mathjax.html %}
+    {% endif %}
 
+    {% if jekyll.environment == 'production' and site.google_analytics %}
+      {% include google-analytics.html %}
+    {% endif %}
+  </body>
+</html>
