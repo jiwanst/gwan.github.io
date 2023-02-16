@@ -24,10 +24,12 @@
         <li>
           {%- capture link -%}{{ page.permalink }}#{{ slugified_taxonomy_name }}{%- endcapture -%}
           <a class="taxonomy" href="{{ link | relative_url }}">
-            <span>@
+            <span>
+              {%- if page.type == 'tags' -%}
                 {{ slugified_taxonomy_name }}
               {%- else -%}
                 {{ taxonomy_name }}
+              {%- endif -%}
             </span>
             <span>{{ posts.size }}</span>
           </a>
