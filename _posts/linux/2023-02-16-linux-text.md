@@ -2,7 +2,7 @@
 layout: post
 title: Example Content
 author: G-WAN
-category: 리눅스
+category: linux
 math: true
 ---
 
