@@ -1,6 +1,6 @@
 ---
 layout: archive
 type: categories
-title: 카테고리
+title: 전체
 permalink: /categories/
 ---

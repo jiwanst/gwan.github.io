@@ -1,9 +1,27 @@
 ---
 layout: page
-title: About
+title: 소개
 permalink: /about/
 ---
 
-Welcome to the demo website of Tao. Tao is a content-first minimalist Jekyll theme for blogs.
+### 운영목적
+공부 또는 업무 중 구글의 도움을 많이 받는다.
+구글링은 좋지만 계속 반복되면 지겹고 항상 비슷한 것을 찾아봄에 회의감이 들었다.
 
-For more information about this theme, please visit the [README](https://github.com/vfvong/jekyll-theme-tao) in the official repository.
+이 블로그는
+- 그런 계속 잊는 자료를 모아 한군데 정리하여 효율성을 높이고
+- 포스팅하며 좀더 기억하기 위해
+- 나만의 페이지를 갖기 위해
+만들었다.
+
+막상 만드니 나의 페이지라기 보다 남의 소스를 가져다가 이름만 바꿔 쓰는 정도의 수준..
+
+----
+
+### 지킬 선택 이유
+
+귀여운 실력으로 딱히 커스텀하지 못해 지킬을 쓰는 의미가 크게 없지만 나름의 선택 이유가 있다.
+- 깃허브와 마크다운에 익숙해지 위해
+- 개발자인척 하려고..
+
+외부 노출은 안할거지만 혹시 모름, 나중에 커스텀해서 웅장한 블로그가 될지도..

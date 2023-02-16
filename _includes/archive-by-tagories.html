@@ -24,8 +24,7 @@
         <li>
           {%- capture link -%}{{ page.permalink }}#{{ slugified_taxonomy_name }}{%- endcapture -%}
           <a class="taxonomy" href="{{ link | relative_url }}">
-            <span>
-              {%- if page.type == 'tags' -%}
+            <span>@
                 {{ slugified_taxonomy_name }}
               {%- else -%}
                 {{ taxonomy_name }}
