@@ -26,13 +26,13 @@
 
   <p>
     <form action="/search">
-      <b>찾아보기</b>
+      <a>찾아보기</a>
       <div class="tipue_search_right">
         <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required></div>
       <div style="clear: both;"></div>
     </form>
   </p>
-  
+
   {% if site.data.social %}
   <div class="sidebar-section social">
     {% for social in site.data.social %}
