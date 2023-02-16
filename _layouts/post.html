@@ -28,20 +28,9 @@ layout: default
       <nav class="post-categories">
         {% for category in page.categories %}
           {% if site.categories_path %}
-            <a class="post-category" href="{{ site.categories_path | relative_url }}#{{ category | slugify }}">{{ category }}</a> /
+            <a class="post-category" href="/{{ category }}/">{{ category }}</a> /
           {% else %}
             <span>{{ category }}</span> /
-          {% endif %}
-        {% endfor %}
-      </nav>
-    {% endif %}
-    {% if page.gits.size > 0 %}
-      <nav class="post-gits">
-        {% for category in page.gits %}
-          {% if site.gits_path %}
-            <a class="post-git" href="{{ site.gits_path | relative_url }}#{{ git | slugify }}">{{ git }}</a> /
-          {% else %}
-            <span>{{ git }}</span> /
           {% endif %}
         {% endfor %}
       </nav>
