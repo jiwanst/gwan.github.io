@@ -2,5 +2,7 @@
   url: /about/
 - title: 전체
   url: /categories/
+- title: SQLP
+  url: /splp/
 - title: 리눅스
   url: /linux/
