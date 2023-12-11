@@ -1,5 +1,5 @@
 ---
-layout: linux_post
+layout: linuxpost
 type: categories
 title: linux
 permalink: /linux/
