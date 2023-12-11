@@ -2,7 +2,9 @@
   url: /about/
 - title: 전체
   url: /categories/
-- title: SQLP
-  url: /sqlp/
+- title: NLP
+  url: /nlp/
 - title: 리눅스
   url: /linux/
+- title: SQLP
+  url: /sqlp/
