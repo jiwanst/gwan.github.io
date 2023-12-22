@@ -1,6 +1,6 @@
 ---
 layout: visionpost
 type: categories
-title: Computer Vision
+title: Vision
 permalink: /vision/
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CNN: The Beginning
+title: CNN The Beginning
 author: G-WAN
 categories: [vision]
 math: true
