@@ -1,6 +1,6 @@
 ---
 layout: visionpost
-title: CNN: The Beginning
+title: CNN The Beginning
 author: G-WAN
 categories: [vision]
 math: true
@@ -91,7 +91,7 @@ Max Pooling을 주로 사용하는 것도 비슷한 결이지 않나 싶다.
 이해가 안됐다.. 결국엔 1차원할텐데 이게 효과가 있나 싶었다.
 그런데 사실 간단한 이야기였다.
 저런 이미지의 특징적인 부분을 추출한
-$$N \times N$$ 값은 더이상 공간적인 정보를 가진 이미지가 아니다.
+N * N 값은 더이상 공간적인 정보를 가진 이미지가 아니다.
 따라서 공간적인 소실의 문제를 논할 필요가 없었던 것이다~~
 
 
