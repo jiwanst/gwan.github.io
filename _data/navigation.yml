@@ -4,6 +4,8 @@
   url: /categories/
 - title: NLP
   url: /nlp/
+- title: Vision
+  url: /vision/
 - title: 리눅스
   url: /linux/
 - title: SQLP
